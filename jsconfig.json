@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "paths": {
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@graphql/*": [
+        "src/graphql/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@middlewares/*": [
+        "src/middlewares/*"
+      ],
+      "@models/*": [
+        "src/database/models/*"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist"
+  ]
+}
